@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
       - name: minha-app
-        image: minha-app:latest
+        image: sua-conta-docker/minha-app
         ports:
         - containerPort: 5000
+
 
